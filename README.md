@@ -1,4 +1,3 @@
-# product-project
+# **Product Landing Page Project** - *by Cindy Kandie and David
 https://cindykandie.github.io/product-project/
-Microverse Pair Programming Html css project
-Cindy And David
+
