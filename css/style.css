@@ -111,3 +111,29 @@ a {
 	border-radius: 2px;
 	cursor: pointer;
 }
+
+#footer{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+#footer > ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer > ul > li{
+  padding: 0 10px;
+  list-style: none;
+}
+
+#footer p{
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
