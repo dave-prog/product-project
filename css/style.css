@@ -110,3 +110,28 @@ a {
 	border-radius: 2px;
 	cursor: pointer;
 }
+
+#features{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.feature{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 10rem 4rem 10rem;
+}
+.icon {
+  margin-right: -5rem;
+  width: 20vw;
+  color: darkorange;
+}
+
+.feature-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  padding: 5px;
+}
