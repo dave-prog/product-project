@@ -1,3 +1,4 @@
-# **Product Landing Page Project** - *by Cindy Kandie and David
+# **Product Landing Page Project**
+### By Cindy Kandie and David
 https://cindykandie.github.io/product-project/
 
