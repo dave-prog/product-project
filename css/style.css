@@ -1,28 +1,16 @@
-<<<<<<< HEAD
 body{
   font-family: 'Circular-Loom', sans-serif;
 }
-=======
->>>>>>> f365aae57450c18d6439f848d621a779543e89ac
 @font-face {
-  font-weight: 400;
-  font-style:  normal;
-  font-family: 'Circular-Loom';
-<<<<<<< HEAD
-
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-family: "Circular-Loom";
+	src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2") format("woff2");
 }
-
-=======
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2'); 
-}
->>>>>>> f365aae57450c18d6439f848d621a779543e89ac
 @font-face {
-  font-weight: 500;
-  font-style:  normal;
-  font-family: 'Circular-Loom';
-<<<<<<< HEAD
-
+	font-weight: 500;
+	font-style: normal;
+	font-family: "Circular-Loom";
   src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
 }
 
@@ -38,31 +26,128 @@ body{
   font-weight: 900;
   font-style:  normal;
   font-family: 'Circular-Loom';
-
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
-=======
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2'); 
 }
 @font-face {
-  font-weight: 700;
-  font-style:  normal;
-  font-family: 'Circular-Loom';
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-family: "Circular-Loom";
+	src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2")
+		format("woff2");
 }
 @font-face {
-  font-weight: 900;
-  font-style:  normal;
-  font-family: 'Circular-Loom';
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-family: "Circular-Loom";
+	src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2")
+		format("woff2");
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-body{
-  background-color: #eee;
-  font-family: 'Lato', sans-serif;
->>>>>>> f365aae57450c18d6439f848d621a779543e89ac
+body {
+	background-color: #eee;
+	font-family: "Lato", sans-serif;
+}
+
+div {
+	display: block;
+}
+
+header {
+	top: 0;
+	position: fixed;
+	min-height: 75px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 20px;
+}
+.logo > img {
+	width: 100%;
+	height: 100%;
+	max-width: 300px;
+}
+
+#nav-bar {
+	margin-left: 30rem;
+	font-weight: 400;
+}
+#nav-bar > ul {
+	display: flex;
+	width: 35vw;
+	justify-content: space-around;
+}
+.nav-link {
+	list-style: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 200px;
+	margin-top: 50px;
+}
+
+#form > h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#email {
+	max-width: 275px;
+	width: 100%;
+	padding: 5px;
+}
+
+#submit {
+	max-width: 150px;
+	width: 100%;
+	height: 30px;
+	margin: 15px 0;
+	border: 0;
+	background-color: #f1c40f;
+	padding: 4px;
+	height: 40px;
+	font-size: 1em;
+	font-weight: 900;
+	border: 3px transparent solid;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+#features{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.feature{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 10rem 4rem 10rem;
+}
+.icon {
+  margin-right: -5rem;
+  width: 20vw;
+  color: darkorange;
+}
+
+.feature-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  padding: 5px;
 }
