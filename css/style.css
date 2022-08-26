@@ -49,6 +49,7 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	padding: 0 20px;
+  background-color: #eee;
 }
 .logo > img {
 	width: 100%;
