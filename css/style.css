@@ -1,40 +1,34 @@
-* {
-  box-sizing: border-box;
+body{
+  font-family: 'Circular-Loom', sans-serif;
+}
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
 }
 
-#title,
-#description {
-  margin: 0, auto;
-  text-align: center;
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
 }
 
-#survey-form {
-  margin: 0 25% 0 25%;
-  font-size: 1rem;
-  background: #acacac;
-  padding: 5rem;
-  line-height: 1.7rem;
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
 }
 
-#name,
-#email,
-#number,
-#dropdown,
-#submit {
-  width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-}
-form > textarea {
-  width: 100%;
-}
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
 
-#submit {
-  padding: 0.8rem;
-  font-size: 1rem;
-  background: green;
-  color: white;
-  outline: none;
-  border: none;
-  border-radius: 5px;
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
 }

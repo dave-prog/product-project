@@ -1,0 +1,49 @@
+section#how-it-works{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#video{
+    border-radius: 5px;
+}
+
+section#pricing{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: row;
+}
+div.price-card{
+    border: 1px solid black;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+
+
+}
+.price-card h1{
+    background-color: grey;
+    text-align: center;
+}
+.price-card h2{
+    text-align: center;
+}
+.price-card ul{
+    text-align: center;
+    list-style-type: none;
+}
+.price-card button{
+    background: yellow;
+    font-weight: 500;
+    margin: auto 30%;
+    padding: auto 5px;
+
+}
+
+@media only screen and (max-width: 600px
+){
+    section#pricing{
+        flex-direction: column;
+    }
+}
